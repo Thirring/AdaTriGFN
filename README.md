@@ -12,14 +12,3 @@ The dataset used in this research is publicly available. You can access and down
 
 * **STATEToxiCN Dataset:** [https://github.com/shenmeyemeifashengguo/STATEToxiCN](https://github.com/shenmeyemeifashengguo/STATEToxiCN)
 
----
-
-## ⚙️ Installation
-
-*(Note: Add your environment setup instructions here)*
-
-```bash
-# Example:
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
-pip install -r requirements.txt
