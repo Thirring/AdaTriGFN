@@ -1,7 +1,5 @@
 # Learning to Defer: Adaptive Multi-View Graph Fusion via Differentiable Three-Way Decision for Span-level Target-Aware Toxicity Extraction
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Overview
 
 This repository contains the official implementation code for the paper: **"Learning to Defer: Adaptive Multi-View Graph Fusion via Differentiable Three-Way Decision for Span-level Target-Aware Toxicity Extraction"**. 
