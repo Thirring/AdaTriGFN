@@ -1,0 +1,49 @@
+description: 消融实验2：固定阈值
+
+log_dir: log
+
+cuda_index: 3
+
+
+mode: train
+dataset_dir: data_ann_none
+max_sequence_len: 256
+
+model_path: /home/data/model/chinese-macbert-large
+#model_path: E:\academic\resource\model\xlm-roberta-large
+
+
+
+#bert_feature_dim: 76
+batch_size: 4
+epochs: 10
+class_num: 11
+seed: 1000
+
+learning_rate: !!float 3e-4
+bert_lr: !!float 2e-05
+#threshold_lr: !!float 5e-06
+last_decisions_threshold: 0.3
+
+adam_epsilon: !!float 1e-08
+weight_decay: !!float 0.01 #尝试变大
+emb_dropout: 0.5
+num_layers: 3  #尝试变大
+pooling: avg #[max, avg, sum]
+gcn_dim: 384
+relation_constraint: True
+symmetry_decoding: False
+
+#learning_rate: !!float 0.001
+#bert_lr: !!float 2e-05
+#threshold_lr: !!float 5e-06
+#last_decisions_threshold: 0.45
+#
+#adam_epsilon: !!float 1e-08
+#weight_decay: !!float 5e-2  #尝试变大
+#emb_dropout: 0.5
+#num_layers: 3  #尝试变大
+#pooling: avg #[max, avg, sum]
+#gcn_dim: 16
+#relation_constraint: True
+#symmetry_decoding: False
